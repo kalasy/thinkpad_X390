@@ -14,7 +14,7 @@ This guide is intended for educational purposes only. Use at your own risk.
 3. [SmartCard](#SmartCard)
     - [DNIe](#dnie)
     - [autofirma](#autofirma)
-4. [Fingerprint](#Fingerprint)    
+4. [Fingerprint](#Fingerprint)
 5. [Sound](#Sound)
 6. [Resources](#Resources)
 
@@ -79,7 +79,7 @@ lspci
 3a:00.0 USB controller: Intel Corporation JHL6240 Thunderbolt 3 USB 3.1 Controller (Low Power) [Alpine Ridge LP 2016] (rev 01)
 3d:00.0 Non-Volatile memory controller: Sandisk Corp SanDisk Extreme Pro / WD Black SN750 / PC SN730 / Red SN700 NVMe SSD
 ```
-## SmartCard <a name="#SmartCard"></a>
+## SmartCard <a name="SmartCard"></a>
 
 openjdk-21-jdk libnss3-tools are only needed if you plan to use autofirma (only for Spanish citizens) because this app needs java installed.
 ```
@@ -93,7 +93,7 @@ Then add to Firefox this module in order to use the smart card reader. Just loca
 [Old example with pictures](https://github.com/OpenSC/OpenSC/wiki/Installing-OpenSC-PKCS11-Module-in-Firefox,-Step-by-Step)
 
 
-### DNIe <a name="#DNIe"></a>
+### DNIe <a name="DNIe"></a>
 
 Now you can test the smartcard reader with the command "pcsc_scan"
 
@@ -148,7 +148,7 @@ Mon Aug  4 17:15:46 2025
 Try here [DGT puntos](https://sede.dgt.gob.es/es/permisos-de-conducir/permiso-por-puntos/certificado-de-puntos/) 
 
 
-### autofirma <a name="#autofirma"></a>
+### autofirma <a name="autofirma"></a>
 
 
 [URL](https://firmaelectronica.gob.es/content/dam/firmaelectronica/descargas-software/autofirma19/Autofirma_Linux_Debian.zip) Just download the ZIP, unzip and install with dpkg
@@ -159,7 +159,7 @@ unzip Autofirma_Linux_Debian.zip
 sudo dpkg -i autofirma_1_9.deb 
 ```
 
-## Fingerprint <a name="#Fingerprint"></a>
+## Fingerprint <a name="Fingerprint"></a>
 
 You can use KDE user acount to enroll fingerprints or using the bash command
 
@@ -231,7 +231,7 @@ echo $?
 0
 ```
 
-## Sound <a name="#Sound"></a>
+## Sound <a name="Sound"></a>
 
 Sound can be improved a lot if easyeffects is installed https://github.com/wwmm/easyeffects
 
