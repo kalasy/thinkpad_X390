@@ -83,7 +83,7 @@ lspci
 
 openjdk-21-jdk libnss3-tools are only needed if you plan to use autofirma (only for Spanish citizens) because this app needs java installed.
 ```
-sudo apt -y install pcscd pcsc-tools libccid pinentry-gtk2  openjdk-21-jdk libnss3-tools
+sudo apt -y install pcscd pcsc-tools libccid pinentry-gtk2 opensc-pkcs11 openjdk-21-jdk libnss3-tools
 ```
 
 Then add to Firefox this module in order to use the smart card reader. Just locate the path for the file named "opensc-pkcs11.so" https://packages.debian.org/trixie/amd64/opensc-pkcs11/filelist, normally will be:
